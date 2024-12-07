@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopping Basket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+   
+  </head>
+  <body>
+    <div class="container py-4">
+      <!-- Header -->
+      <header class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="h3">World Peas</h1>
+        <nav>
+          <a href="#" class="me-3">Home</a>
+          <a href="#" class="me-3">Shop</a>
+          <a href="#">Basket</a>
+        </nav>
+        <button class="btn btn-outline-primary">Basket (3)</button>
+      </header>
+
+      <div class="row">
+        <!-- Basket Items -->
+        <div class="col-lg-7 col-md-12">
+            <div class="basket-item d-flex">
+                <div class="col-4">
+                  <img src="./assets/img/download.webp" alt="Heirloom Tomato">
+                </div>
+                <div class="col-8 d-flex flex-column justify-content-center ms-3 ptice">
+                  <div>
+                    <h2 class="h5 mb-1">Heirloom Tomato</h2>
+                    <p class="mb-0">$0.99 / Kg</p>
+                  </div>
+                  <p class="text-end mb-0 pos ptice">$5.99</p>
+                </div>
+              </div>
+
+              <div class="basket-item d-flex">
+                <div class="col-4">
+                  <img src="./assets/img/download.jpeg" alt="Heirloom Tomato">
+                </div>
+                <div class="col-8 d-flex flex-column justify-content-center ms-3 ptice">
+                  <div>
+                    <h2 class="h5 mb-1">Heirloom Tomato</h2>
+                    <p class="mb-0 kg-price ptice">$0.99 / Kg</p>
+                  </div>
+                  <p class="text-end mb-0 pos">$5.99</p>
+                </div>
+              </div>
+
+              <div class="basket-item d-flex">
+                <div class="col-4">
+                  <img class="onion" src="assets/img/surprised-purple-onion-character_1308-172288.avif" alt="Heirloom Tomato">
+                </div>
+                <div class="col-8 d-flex flex-column justify-content-center ms-3 ptice">
+                  <div>
+                    <h2 class="h5 mb-1">Heirloom Tomato</h2>
+                    <p class="mb-0 kg-price">$0.99 / Kg</p>
+                  </div>
+                  <p class="text-end mb-0 pos">$5.99</p>
+                </div>
+              </div>
+              
+              
+        </div>
+
+        <!-- Order Summary -->
+        <div class="col-lg-5 col-md-12">
+          <div class="order-summary">
+            <h2 class="h4">Order Summary</h2>
+            <div class="row mb-2">
+              <div class="col-6">Subtotal</div>
+              <div class="col-6 text-end">$327.44</div>
+            </div>
+            <div class="row mb-2">
+              <div class="col-6">Shipping</div>
+              <div class="col-6 text-end">$3.99</div>
+            </div>
+            <div class="row mb-2">
+              <div class="col-6">Tax</div>
+              <div class="col-6 text-end">$2.00</div>
+            </div>
+            <div class="row">
+              <div class="col-6 fw-bold">Total</div>
+              <div class="col-6 text-end fw-bold">$33.43</div>
+            </div>
+            <a href="#" class="btn-payment">Continue to Payment</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
